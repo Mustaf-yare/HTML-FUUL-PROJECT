@@ -1,0 +1,786 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  width: min(90%, 1120px);
+  margin-inline: auto;
+}
+
+.section1 {
+  position: relative;
+  /* width: 100vw;
+  max-width: 100%; */
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section1 .big-video {
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* .section1{
+   background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/2105493/pexels-photo-2105493.jpeg") center / cover no-repeat;
+   height: 100vh;
+   width: 100vw;
+} */
+.section1 .work-hard{
+  position: absolute;
+  z-index: 5;
+  top: 40%;
+  left: 25%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section1 .work-hard h6{
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.section1 .work-hard h2{
+  font-size: 64px;
+  font-weight: 800;
+  color: #fff;
+  /* padding: 20px; */
+  margin: 30px 0px 25px;
+  letter-spacing: 1px;
+  line-height: 75px;
+}
+
+.section1 .work-hard h2 span{
+  color: #ed563b;
+}
+
+.section1 .work-hard a{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 12px 20px;
+  background-color: #ed563b;
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.section1 header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  max-width: 100%;
+  height: 5rem;
+  display: flex;
+  /* gap: 300px; */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(35,45,57,0.5);
+  /* position: absolute; */
+  top: 0;
+}
+
+.desktop-menu{
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  display: flex;
+  gap: 0.4rem;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+header h1 span{
+  color: rgb(237, 86, 59);
+}
+
+.desktop-menu .menu-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+header .menu-links a {
+  color: aliceblue;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+header .menu-links a:hover {
+  color: rgb(237, 86, 59);
+}
+
+header .menu-links .home {
+  color: rgb(237, 86, 59);
+}
+
+header .menu-links button {
+  background-color: rgb(237, 86, 59);
+  color: white;
+  border: none;
+  padding: 13px 20px;
+}
+.section2 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  width: 100vw;
+  max-width: 100%;
+}
+.section2 h1{
+ color: black;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.section2 h1 span{
+  color: rgb(237, 86, 59);
+}
+.section2 i {
+  color: rgb(237, 86, 59);
+  width: 50px;
+  font-size: 2rem;
+}
+.section2 p {
+  color: rgb(112, 112, 112);
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section3 .dumbels {
+  display: flex;
+  gap: 30px;
+}
+
+.section3 .dumbels .dumbel {
+  line-height: 30px;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  margin-block: 5rem;
+  width: 90%;
+  max-width: 90%;
+}
+
+.section3 .dumbels p {
+  color: rgb(112, 112, 112);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.section3 .dumbels .dumbel h1 {
+  color: rgb(35, 45, 57);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.section3 .dumbels .dumbel a {
+  text-decoration: none;
+  color: #ed563b;
+}
+
+/* .section3 .dumbels .fa-solid{
+    font-size: 3rem;
+    background-color: #e8521b;
+    height: 6rem;
+    width: 7rem;
+    padding: 1.5rem;
+    border-radius: 5%;
+} */
+
+.section4 {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg");
+  gap: 20px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.section4 h1 {
+  color: white;
+  text-transform: uppercase;
+  line-height: 43px;
+  font-size: 36px;
+  font-weight: 700;
+
+}
+
+.section4 h1 span{
+  color: #ed563b;
+}
+
+.section4 p {
+  color: white;
+  text-align: center;
+}
+
+.section4 button {
+  background-color: rgb(237, 86, 59);
+  color: white;
+  border: none;
+  /* width: 14%; */
+  padding: 12px 20px;
+  font-size: 15px;
+  display: inline-block;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section5 {
+  /* height: 200px; */
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-block: 6rem;
+  width: 90%;
+  max-width: 90%;
+}
+
+.section5 .training-classes {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.section5 .training-classes .training-class {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 10px;
+  box-shadow: 1px 1px 1px 2px rgba(138, 138, 138, 0.1);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.section5 .training-classes .training-class p {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.section5 .training-classes .training-class img {
+  width: 15%;
+  height: 100%;
+}
+
+.section5 .training-classes button {
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  height: 70px;
+  background-color: #ed563b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.section5 .training-details {
+  /* background-color: blue; */
+  grid-column: 2 / span 3;
+}
+
+.section5 .training-details img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.section5 .training-details h4 {
+  font-weight: 700;
+  font-size: 23px;
+}
+.section5 .training-details p {
+  color: rgb(122, 122, 122);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.training-details button {
+  padding: 15px;
+  font-size: 15px;
+  /* font-weight: 600; */
+  /* height: 70px; */
+  background-color: #ed563b;
+  border: none;
+  color: white;
+  /* border-radius: 5px; */
+  letter-spacing: 1px;
+  width: 23%;
+}
+
+.training-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section6 {
+  background: url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg");
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.section6 .image-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 100%;
+  /* height: 100%; */
+}
+
+.section6 .image-table .classes-schedule {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-block: 4.5rem;
+}
+
+.section6 .image-table .classes-schedule h1{
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.section6 .image-table .classes-schedule h1 span {
+  color: #ed563b;
+}
+
+.section6 .image-table .classes-schedule p {
+  color: white;
+  line-height: 30px;
+}
+
+.section6 .image-table .classes-schedule i {
+  color: #ed563b;
+  width: 50px;
+  font-size: 2rem;
+}
+
+.section6 .image-table .days {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.section6 .image-table .custom-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  max-width: 100%;
+  width: 100%;
+  table-layout: fixed;
+  margin: 20px auto;
+}
+
+.section6 .image-table .custom-table th,
+.custom-table td {
+  border: 1px solid white;
+  padding: 35px;
+  color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 13px;
+}
+
+.section7{
+  width: 100%;
+  max-width: 100%;
+}
+
+.training-teachers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-block: 5rem;
+  max-width: 100%;
+
+}
+.training-teachers .training-teacher {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 2px rgba(129, 129, 129, 0.1);
+  padding: 40px;
+  width: 350px;
+  height: 500px;
+  justify-content: center;
+}
+
+.training-teachers .training-teacher p:nth-child(2) {
+  color: #ed563b;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.training-teachers .training-teacher p:nth-child(4) {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(122, 122, 122);
+}
+
+.training-teachers .training-teacher h2 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.training-teachers .training-teacher img{
+    width:100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.training-teachers .training-teacher .icons {
+  display: flex;
+  gap: 10px;
+}
+
+.training-teachers .training-teacher .icons i {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.section8 {
+  display: flex;
+  max-width: 100%;
+}
+
+.section8 .map {
+  width: 50%;
+}
+
+.section8 .map iframe{
+  width: 100%;
+  max-width: 100%;
+}
+
+.section8 .form-image {
+  background: url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg");
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section8 .form-image .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 40px;
+  padding: 40px;
+  /* align-items: center;
+        justify-content: center; */
+  background-color: #fff;
+  width: 70%;
+  height: 80%;
+  border-radius: 5px;
+}
+
+.section8 .form-image .contact .name-email {
+  display: flex;
+  gap: 30px;
+ 
+
+  border-radius: 0;
+}
+
+.section8 .form-image .contact .name-email #name,
+#email {
+  border-radius: 0;
+  border: 1.5px solid rgb(221, 221, 221);
+  padding: 10px;
+   width: 80%;
+}
+
+.section8 .form-image .contact .name-email #subject,
+#message {
+  border-radius: 0;
+  border: 1.5px solid rgb(221, 221, 221);
+  padding: 10px;
+}
+
+.section8 .form-image .contact .subjected {
+  border-radius: 0;
+  border: 1.5px solid rgb(221, 221, 221);
+  padding: 10px;
+}
+
+.section8 .form-image .contact button {
+  width: 128px;
+  height: 41px;
+  color: #fff;
+  background-color: #ed563b;
+  border: none;
+  padding: 11px 17px;
+  font-size: 13px;
+}
+
+footer p {
+  font-size: 13px;
+  text-align: center;
+  margin-block: 2rem;
+}
+.highlight {
+  color: #ed563b;
+}
+.hamburger{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .desktop-menu .menu-links{
+      display: none;
+    }
+    .section1 header{
+     background-color: #fff
+    }
+    header .desktop-menu h1{
+      color: black;
+    }
+
+    /* .section1 .header{
+      height: 0;
+    } */
+
+    .hamburger{
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      position: absolute;
+      top: 7%;
+      right: 7%;
+      background-color: transparent;
+      z-index: 5;
+      color: #000;
+      font-size: 30px;
+      width: 50px;
+      height: 50px;
+      }
+
+       .section1{
+        position: relative;
+        /* width: 1px; */
+      }
+
+      .section1 .mobile-menu{
+        display: flex;
+        flex-direction: column;
+       gap: 50px;
+        justify-content: center;
+        align-items: stretch;
+        position: absolute;
+        top: 100%;
+        background-color:#fff;
+        width: 90%;
+        height: calc(75vh - 100%);
+        transform: translateY(0%);
+        transition: transform 300ms ease-in-out;       
+      }
+
+      .mobile-menu[data-visible="false"]{
+        transform: translateY(-132%);
+      }
+
+      .hamburger i[data-visible="true"]{
+        display: block;
+      }
+      .hamburger i[data-visible="false"]{
+        display: none;
+      }
+
+      .section1 .mobile-menu ul{
+         width: 100%;
+         /* height: 100%; */
+      }
+
+      .section1 .mobile-menu li{
+        display: flex;
+        list-style: none;
+         /* padding: 10px; */
+         text-align: center;
+        
+          width: 100%;
+          
+        
+      }
+
+       .section1 .mobile-menu li a{
+       
+        text-decoration: none;
+        color: #000;
+       width: 50%;
+       display: flex;
+       flex: 1;
+       justify-content: center;
+       align-items: center;
+       height: 44px;
+       font-size: 13px;
+       background-color: #f7f7f7;
+       color: rgb(35,45,57);
+       font-weight: 500;
+        
+       }
+
+       .section1 .mobile-menu li button{
+        background-color: #ed563b;
+        width: 100%;
+        /* height: 100%; */
+         display: flex;
+         flex: 1;
+         justify-content: center;
+         align-items: center;
+         height: 48px;
+        border: 0;
+        color: #fff;
+       }
+
+      .mobile-menu li:nth-child(1) a {
+       border: 0.1px solid rgba(128, 128, 128,0.1);
+       }
+      .mobile-menu li:nth-child(3) a {
+       border: 0.1px solid rgba(128, 128, 128,0.1);
+       }
+      .mobile-menu li:nth-child(5) a {
+       border: 0.1px solid rgba(128, 128, 128,0.1);
+       }
+
+     
+       .section2 .big-title{
+        font-size: 10px;
+       }
+
+       .section3{
+        display: flex;
+        flex-direction: column;
+       }
+
+       .section3 .dumbels img{
+        width: 100px;
+        height: 100px;
+       }
+
+       .section5{
+        display: flex;
+        flex-direction: column;
+       }
+        
+      .section5 .training-classes .training-class img {
+        width:8%;
+        height: 100%;
+        } 
+        
+       .section7 .training-teachers{
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+       }   
+
+       .section7 .training-teachers .training-teacher{
+        width: 80%;
+        height:  auto;
+       }
+
+       .training-teachers .training-teacher img{
+        max-width:100%;
+        display: block;
+        height: auto;
+        width: 100%;
+       }
+
+       .section8{
+        display: flex;
+        flex-direction: column;
+       }
+
+       .section8 .map{
+        width: 100%;
+       }
+
+       .section8 .form-image{
+        width: 100%;
+       }
+    /* .section3{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .section5 {
+     display: flex;
+     flex-direction: column;
+      
+    }
+    
+    .section7 .training-teachers{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .section8{
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    } */
+
+}
