@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -49,7 +50,7 @@ body {
    height: 100vh;
    width: 100vw;
 } */
-.section1 .work-hard{
+.section1 .work-hard {
   position: absolute;
   z-index: 5;
   top: 40%;
@@ -58,13 +59,13 @@ body {
   text-transform: uppercase;
 }
 
-.section1 .work-hard h6{
+.section1 .work-hard h6 {
   font-size: 18px;
   font-weight: 800;
   color: #fff;
 }
 
-.section1 .work-hard h2{
+.section1 .work-hard h2 {
   font-size: 64px;
   font-weight: 800;
   color: #fff;
@@ -74,18 +75,17 @@ body {
   line-height: 75px;
 }
 
-.section1 .work-hard h2 span{
+.section1 .work-hard h2 span {
   color: #ed563b;
 }
 
-.section1 .work-hard a{
+.section1 .work-hard a {
   font-size: 15px;
   font-weight: 400;
   padding: 12px 20px;
   background-color: #ed563b;
   color: #fff;
   text-decoration: none;
-  
 }
 
 .section1 header {
@@ -98,12 +98,12 @@ body {
   /* gap: 300px; */
   justify-content: center;
   align-items: center;
-  background-color: rgba(35,45,57,0.5);
+  background-color: rgba(35, 45, 57, 0.5);
   /* position: absolute; */
   top: 0;
 }
 
-.desktop-menu{
+.desktop-menu {
   display: flex;
   gap: 300px;
   justify-content: center;
@@ -118,7 +118,7 @@ header h1 {
   font-weight: 800;
 }
 
-header h1 span{
+header h1 span {
   color: rgb(237, 86, 59);
 }
 
@@ -160,13 +160,13 @@ header .menu-links button {
   width: 100vw;
   max-width: 100%;
 }
-.section2 h1{
- color: black;
+.section2 h1 {
+  color: black;
   font-size: 28px;
   font-weight: 800;
 }
 
-.section2 h1 span{
+.section2 h1 span {
   color: rgb(237, 86, 59);
 }
 .section2 i {
@@ -243,10 +243,9 @@ header .menu-links button {
   line-height: 43px;
   font-size: 36px;
   font-weight: 700;
-
 }
 
-.section4 h1 span{
+.section4 h1 span {
   color: #ed563b;
 }
 
@@ -383,7 +382,7 @@ header .menu-links button {
   margin-block: 4.5rem;
 }
 
-.section6 .image-table .classes-schedule h1{
+.section6 .image-table .classes-schedule h1 {
   color: white;
   font-size: 28px;
   font-weight: 800;
@@ -434,7 +433,7 @@ header .menu-links button {
   font-size: 13px;
 }
 
-.section7{
+.section7 {
   width: 100%;
   max-width: 100%;
 }
@@ -445,7 +444,6 @@ header .menu-links button {
   gap: 5px;
   margin-block: 5rem;
   max-width: 100%;
-
 }
 .training-teachers .training-teacher {
   display: flex;
@@ -476,11 +474,11 @@ header .menu-links button {
   font-weight: 600;
 }
 
-.training-teachers .training-teacher img{
-    width:100%;
-    display: block;
-    max-width: 100%;
-    height: auto;
+.training-teachers .training-teacher img {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .training-teachers .training-teacher .icons {
   display: flex;
@@ -501,7 +499,7 @@ header .menu-links button {
   width: 50%;
 }
 
-.section8 .map iframe{
+.section8 .map iframe {
   width: 100%;
   max-width: 100%;
 }
@@ -534,7 +532,6 @@ header .menu-links button {
 .section8 .form-image .contact .name-email {
   display: flex;
   gap: 30px;
- 
 
   border-radius: 0;
 }
@@ -544,7 +541,7 @@ header .menu-links button {
   border-radius: 0;
   border: 1.5px solid rgb(221, 221, 221);
   padding: 10px;
-   width: 80%;
+  width: 80%;
 }
 
 .section8 .form-image .contact .name-email #subject,
@@ -578,191 +575,186 @@ footer p {
 .highlight {
   color: #ed563b;
 }
-.hamburger{
-    display: none;
+.hamburger {
+  display: none;
 }
 
-.mobile-menu{
-    display: none;
+.mobile-menu {
+  display: none;
 }
 
-@media (max-width: 768px){
-    .desktop-menu .menu-links{
-      display: none;
-    }
-    .section1 header{
-     background-color: #fff
-    }
-    header .desktop-menu h1{
-      color: black;
-    }
+@media (max-width: 768px) {
+  .desktop-menu .menu-links {
+    display: none;
+  }
+  .section1 header {
+    background-color: #fff;
+  }
+  header .desktop-menu h1 {
+    color: black;
+  }
 
-    /* .section1 .header{
+  /* .section1 .header{
       height: 0;
     } */
 
-    .hamburger{
-      display: flex;
-      justify-content: center;
-      /* align-items: center; */
-      position: absolute;
-      top: 7%;
-      right: 7%;
-      background-color: transparent;
-      z-index: 5;
-      color: #000;
-      font-size: 30px;
-      width: 50px;
-      height: 50px;
-      }
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: absolute;
+    top: 7%;
+    right: 7%;
+    background-color: transparent;
+    z-index: 5;
+    color: #000;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+  }
 
-       .section1{
-        position: relative;
-        /* width: 1px; */
-      }
+  .section1 {
+    position: relative;
+    /* width: 1px; */
+  }
 
-      .section1 .mobile-menu{
-        display: flex;
-        flex-direction: column;
-       gap: 50px;
-        justify-content: center;
-        align-items: stretch;
-        position: absolute;
-        top: 100%;
-        background-color:#fff;
-        width: 90%;
-        height: calc(75vh - 100%);
-        transform: translateY(0%);
-        transition: transform 300ms ease-in-out;       
-      }
+  .section1 .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: stretch;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    width: 90%;
+    height: calc(75vh - 100%);
+    transform: translateY(0%);
+    transition: transform 300ms ease-in-out;
+  }
 
-      .mobile-menu[data-visible="false"]{
-        transform: translateY(-132%);
-      }
+  .mobile-menu[data-visible="false"] {
+    transform: translateY(-132%);
+  }
 
-      .hamburger i[data-visible="true"]{
-        display: block;
-      }
-      .hamburger i[data-visible="false"]{
-        display: none;
-      }
+  .hamburger i[data-visible="true"] {
+    display: block;
+  }
+  .hamburger i[data-visible="false"] {
+    display: none;
+  }
 
-      .section1 .mobile-menu ul{
-         width: 100%;
-         /* height: 100%; */
-      }
+  .section1 .mobile-menu ul {
+    width: 100%;
+    /* height: 100%; */
+  }
 
-      .section1 .mobile-menu li{
-        display: flex;
-        list-style: none;
-         /* padding: 10px; */
-         text-align: center;
-        
-          width: 100%;
-          
-        
-      }
+  .section1 .mobile-menu li {
+    display: flex;
+    list-style: none;
+    /* padding: 10px; */
+    text-align: center;
 
-       .section1 .mobile-menu li a{
-       
-        text-decoration: none;
-        color: #000;
-       width: 50%;
-       display: flex;
-       flex: 1;
-       justify-content: center;
-       align-items: center;
-       height: 44px;
-       font-size: 13px;
-       background-color: #f7f7f7;
-       color: rgb(35,45,57);
-       font-weight: 500;
-        
-       }
+    width: 100%;
+  }
 
-       .section1 .mobile-menu li button{
-        background-color: #ed563b;
-        width: 100%;
-        /* height: 100%; */
-         display: flex;
-         flex: 1;
-         justify-content: center;
-         align-items: center;
-         height: 48px;
-        border: 0;
-        color: #fff;
-       }
+  .section1 .mobile-menu li a {
+    text-decoration: none;
+    color: #000;
+    width: 50%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    font-size: 13px;
+    background-color: #f7f7f7;
+    color: rgb(35, 45, 57);
+    font-weight: 500;
+  }
 
-      .mobile-menu li:nth-child(1) a {
-       border: 0.1px solid rgba(128, 128, 128,0.1);
-       }
-      .mobile-menu li:nth-child(3) a {
-       border: 0.1px solid rgba(128, 128, 128,0.1);
-       }
-      .mobile-menu li:nth-child(5) a {
-       border: 0.1px solid rgba(128, 128, 128,0.1);
-       }
+  .section1 .mobile-menu li button {
+    background-color: #ed563b;
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    border: 0;
+    color: #fff;
+  }
 
-     
-       .section2 .big-title{
-        font-size: 10px;
-       }
+  .mobile-menu li:nth-child(1) a {
+    border: 0.1px solid rgba(128, 128, 128, 0.1);
+  }
+  .mobile-menu li:nth-child(3) a {
+    border: 0.1px solid rgba(128, 128, 128, 0.1);
+  }
+  .mobile-menu li:nth-child(5) a {
+    border: 0.1px solid rgba(128, 128, 128, 0.1);
+  }
 
-       .section3{
-        display: flex;
-        flex-direction: column;
-       }
+  .section2 .big-title {
+    font-size: 10px;
+  }
 
-       .section3 .dumbels img{
-        width: 100px;
-        height: 100px;
-       }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+  }
 
-       .section5{
-        display: flex;
-        flex-direction: column;
-       }
-        
-      .section5 .training-classes .training-class img {
-        width:8%;
-        height: 100%;
-        } 
-        
-       .section7 .training-teachers{
-        display: flex;
-        flex-direction: column;
-      
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        gap: 10px;
-       }   
+  .section3 .dumbels img {
+    width: 100px;
+    height: 100px;
+  }
 
-       .section7 .training-teachers .training-teacher{
-        width: 80%;
-        height:  auto;
-       }
+  .section5 {
+    display: flex;
+    flex-direction: column;
+  }
 
-       .training-teachers .training-teacher img{
-        max-width:100%;
-        display: block;
-        height: auto;
-        width: 100%;
-       }
+  .section5 .training-classes .training-class img {
+    width: 8%;
+    height: 100%;
+  }
 
-       .section8{
-        display: flex;
-        flex-direction: column;
-       }
+  .section7 .training-teachers {
+    display: flex;
+    flex-direction: column;
 
-       .section8 .map{
-        width: 100%;
-       }
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
 
-       .section8 .form-image{
-        width: 100%;
-       }
-    /* .section3{
+  .section7 .training-teachers .training-teacher {
+    width: 80%;
+    height: auto;
+  }
+
+  .training-teachers .training-teacher img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .section8 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section8 .map {
+    width: 100%;
+  }
+
+  .section8 .form-image {
+    width: 100%;
+  }
+  /* .section3{
       display: grid;
       grid-template-columns: 1fr;
     }
@@ -782,5 +774,4 @@ footer p {
       flex-direction: column;
       max-width: 100%;
     } */
-
 }
